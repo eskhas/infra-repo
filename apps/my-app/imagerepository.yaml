@@ -1,0 +1,10 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: my-app
+  namespace: default
+spec:
+  image: docker.io/eskhas/my-app
+  interval: 1m0s
+  secretRef:
+    name: dockerhub-credential
