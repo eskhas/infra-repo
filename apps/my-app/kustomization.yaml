@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 15m
-  path: "./infra-repo/apps/my-app/deploy"
+  path: "./apps/my-app/deploy"
   prune: true
   sourceRef:
     kind: GitRepository

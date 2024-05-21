@@ -20,5 +20,5 @@ spec:
     push:
       branch: master
   update:
-    path: ./infra-repo/apps/my-app/deploy/my-app-deploy.yaml
+    path: ./apps/my-app/deploy/my-app-deploy.yaml
     strategy: Setters

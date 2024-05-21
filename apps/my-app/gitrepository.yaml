@@ -7,6 +7,6 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  url: https://github.com/eskhas/my-app
+  url: https://github.com/eskhas/infra-repo
   secretRef:
     name: my-app-github
