@@ -11,14 +11,14 @@ spec:
   git:
     checkout:
       ref:
-        branch: master
+        branch: main
     commit:
       author:
         email: fluxcdbot@users.noreply.github.com
         name: fluxcdbot
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
     push:
-      branch: master
+      branch: main
   update:
     path: ./apps/my-app/deploy/my-app-deploy.yaml
     strategy: Setters
