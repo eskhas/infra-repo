@@ -45,4 +45,4 @@ spec:
             - name: DB_PASSWORD
               value: postgres123
       imagePullSecrets:
-        - name: regcred
+        - name: dockerhub-credential
