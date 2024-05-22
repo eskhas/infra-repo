@@ -14,6 +14,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: default
   name: my-app
   labels:
     app: my-app
