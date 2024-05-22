@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: docker.io/eskhas/my-app:0.0.0 # {"$imagepolicy": "default:my-app"}
+          image: docker.io/eskhas/my-app:0.0.2 # {"$imagepolicy": "default:my-app"}
           ports:
             - containerPort: 8080
           env:
